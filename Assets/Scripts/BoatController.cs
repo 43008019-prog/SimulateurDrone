@@ -2,7 +2,7 @@
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
-public class BoatController : MonoBehaviour
+public class BoatController: MonoBehaviour
 {
     [Header("Mouvement")]
     public float thrustForce = 800f;
